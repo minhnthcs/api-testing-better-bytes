@@ -1,0 +1,8 @@
+curl --location 'https://api.github.com/repos/minhnthcs/api-testing-better-bytes/issues/1/comments' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer ghp_0eJ1OFMyMkR8O6brSL6l3FldCT0Mak2xxxx' \
+--header 'X-GitHub-Api-Version: 2022-11-28' \
+--header 'Content-Type: text/plain' \
+--data '{
+    "body":"Filled 2"
+}'
